@@ -8,7 +8,7 @@ class Education extends Component {
     return (
         <div className='section'>
         <div className='title-container'>
-            <h5 className='title-text'>a history of my education</h5>
+            <h5 className='title-text'>a history of my education  :</h5>
         </div>
         </div>
   )
