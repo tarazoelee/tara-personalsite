@@ -7,16 +7,16 @@ class Navbar extends Component {
     return (
       <nav className='navbar'> 
       <div className='navbar-container'>
-          <Link  to='/' className='education'>
+          <Link  to='/' className='topic'>
             education
           </Link>
-           <Link  to='/' className='experience'>
+           <Link  to='/' className='topic'>
             experience
           </Link>
-           <Link  to='/' className='interests'>
+           <Link  to='/' className='topic'>
             interests & awards
           </Link>
-          <Link  to='/' className='contact'>
+          <Link  to='/' className='topic'>
             contact
           </Link>
           <div className='menu-icon'>

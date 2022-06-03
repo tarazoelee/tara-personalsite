@@ -1,24 +1,16 @@
-.education{
-    color:black;
+.topic{
+    color:#63635e;
     padding:5px 80px 5px 5px;
+    text-decoration: none;
+    transition:0.3s;
+}
+.topic:hover{
+    color:#8f9c7e;
 }
 
-.experience{
-    color: black;
-    padding: 5px 80px 5px 5px;
-}
-
-.interests {
-    color: black;
-    padding: 5px 80px 5px 5px;
-}
-.contact{
-    color:black;
-    padding: 5px;
-}
 .navbar-container{
-    padding-right: 220px;
-    padding-top:70px;
+    padding-right: 10%;
+    padding-top:170px;
 }
 .navbar{
     display: flex;
