@@ -5,6 +5,8 @@ import Welcome from './components/Welcome/Welcome';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
+import Fade from 'react-reveal/Fade';
+
 function App() {
   return (
     <>
@@ -17,8 +19,13 @@ function App() {
           </Routes>
       </Router>
        <Welcome></Welcome>
-       <Education></Education>
-       <Experience></Experience>
+       <Fade duration={3000}>
+         <Education></Education>
+       </Fade>
+       <Fade duration={3000}>
+         <Experience></Experience>
+       </Fade>
+       
     </>
   );
 }

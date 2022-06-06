@@ -1,9 +1,7 @@
 import React from 'react'
-import './Education.css'
 import {Component} from 'react'
 
 class Education extends Component {
-
   render(){
     return (
         <div className='section'>
