@@ -11,21 +11,22 @@ function App() {
   return (
     <>
       <Router>
-          <Navbar />
+        <div className='welcome-container'>
+          <Navbar/>
+          <Welcome></Welcome>
           <Routes>
-            <Route path='/' exact></Route>
-            <Route path='/Education' component={Education}></Route>
-            <Route path='/Experience' component={Experience}></Route>
+            <Route pattern='/' exact component={Welcome}></Route>
+            <Route pattern='/Experience' exact component={Experience}></Route>
+            <Route path='/Education' exact component={Education}></Route>
           </Routes>
+        </div>
       </Router>
-       <Welcome></Welcome>
-       <Fade duration={3000}>
-         <Education></Education>
-       </Fade>
        <Fade duration={3000}>
          <Experience></Experience>
        </Fade>
-       
+       <Fade duration={3000}>
+         <Education></Education>
+       </Fade>
     </>
   );
 }

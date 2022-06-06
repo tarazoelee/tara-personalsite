@@ -11,9 +11,12 @@
 
 .navbar-container{
     padding-right: 10%;
-    padding-top:170px;
+    padding-top:100px;
 }
 .navbar{
     display: flex;
     justify-content: flex-end;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: small;
 }

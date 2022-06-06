@@ -7,18 +7,21 @@ class Navbar extends Component {
     return (
       <nav className='navbar'> 
       <div className='navbar-container'>
-          <Link  to='/Education' className='topic'>
-            education
-          </Link>
-           <Link  to='/Experience' className='topic'>
-            experience
-          </Link>
-           <Link  to='/' className='topic'>
-            interests & awards
-          </Link>
-          <Link  to='/' className='topic'>
-            contact
-          </Link>
+        <div>
+          <source srouce="/public/logo.mp4" type='/video/mp4'></source>
+        </div>
+           <a  href='/Experience' className='topic'>
+            EXPERIENCE
+          </a>
+           <a  href='/Interests' className='topic'>
+            INTERESTS & AWARDS
+          </a>
+            <a  href='/Education' className='topic'>
+            EDUCATION
+          </a>
+          <a  href='/Contact' className='topic'>
+            CONTACT
+          </a>
           <div className='menu-icon'>
 
           </div>
