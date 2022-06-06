@@ -1,6 +1,6 @@
 .topic{
     color:#63635e;
-    padding:5px 80px 5px 5px;
+    padding:10px 50px 5px 5px;
     text-decoration: none;
     transition:0.3s;
     letter-spacing: .15em;
@@ -11,7 +11,7 @@
 
 .navbar-container{
     padding-right: 10%;
-    padding-top:100px;
+    padding-top:200px;
 }
 .navbar{
     display: flex;

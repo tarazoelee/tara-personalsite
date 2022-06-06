@@ -1,7 +1,7 @@
 .container{
     width:40%;
     display: flex;
-    padding: 13% 0% 0% 0%;
+    padding: 11% 0% 0% 0%;
     margin-left:8%;
 }
 .current-info{
@@ -9,10 +9,10 @@
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     margin-left: 22%;
-    padding-left: 30%;
+    padding-left: 33%;
     padding-top: 5%;
     width: 25%;
-    color: rgb(255, 253, 228);
+    color: rgb(255, 254, 245);
 }
 .info {
     letter-spacing: 4px;
@@ -36,8 +36,8 @@
     letter-spacing: .15em;
     /* Adjust as needed */
     animation:
-        typing 2.5s steps(20, end),
-        blink-caret .70s step-end infinite;
+        typing 2.5s steps(22, end),
+        blink-caret 1.0s step-end infinite;
 
     font-weight: 900;
     font-size: xx-large;

@@ -15,7 +15,9 @@ function Welcome() {
           <span role="img" aria-label="bouquet">💐</span>
     </div>
     <div className='current-info'>
-          currently working at Aiera as a machine learning intern <span role="img" aria-label="stars">✨</span>
+          <span role="img" aria-label="stars">✨</span>
+          currently working at Aiera as a machine learning intern 
+          <span role="img" aria-label="stars">✨</span>
     </div>
     </>
   )
