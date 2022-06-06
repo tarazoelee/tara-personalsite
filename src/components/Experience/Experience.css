@@ -1,0 +1,31 @@
+.title-text {
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: .15em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #5a5a58;
+}
+
+.section {
+    padding-left: 10%;
+    padding-top:5%;
+    display: flex;
+}
+
+.subsection{
+    padding-top: 35%;
+    padding-left: 10%;
+    margin-bottom: 10%;
+
+}
+.card2{
+    width:25%;
+    padding-top:15%;
+    margin-left:10%;
+}
+
+.card1{
+    width: 20%;
+    margin-top: 5%;
+}

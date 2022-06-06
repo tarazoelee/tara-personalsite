@@ -1,0 +1,54 @@
+.card-container {
+    padding: 0;
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.1em;
+    margin:5%;
+}
+
+.image-container{
+    overflow:hidden;
+    display:block;
+    max-width: 100%;
+    height:auto;
+}
+
+.card-container:hover .overlay{
+    transition: 0.3s;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+    transition: .5s ease;
+    background-color: #454a4a85;
+}
+
+p{
+    color:white;
+    text-align: center;
+    opacity: 1;
+    top:5;
+    font-size: x-large;
+    font-weight: 500px;
+}
+h3{
+    color:white;
+    font-size: xx-large;
+}
+
+

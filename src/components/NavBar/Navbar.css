@@ -1,0 +1,22 @@
+.topic{
+    color:#63635e;
+    padding:10px 50px 5px 5px;
+    text-decoration: none;
+    transition:0.3s;
+    letter-spacing: .15em;
+}
+.topic:hover{
+    color:#8f9c7e;
+}
+
+.navbar-container{
+    padding-right: 10%;
+    padding-top:200px;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: small;
+}
