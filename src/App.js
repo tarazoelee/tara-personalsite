@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar/Navbar.js'
 import Welcome from './components/Welcome/Welcome';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
 import Fade from 'react-reveal/Fade';
+import Navbar from './components/NavBar/Navbar'
 
 function App() {
   return (

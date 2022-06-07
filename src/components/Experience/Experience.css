@@ -1,31 +1,42 @@
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card1 {
+    width: 25%;
+    padding: 3% 0% 2% 10%;
+}
+
+.card2 {
+    width: 25%;
+}
+
+.card3 {
+    width: 25%;
+}
+
+.section {
+    padding-top: 5%;
+}
+
+.subsection {
+    padding-top: 10%;
+    margin-bottom: 10%;
+}
+
 .title-text {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: lighter;
     letter-spacing: .15em;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     color: #5a5a58;
-}
-
-.section {
     padding-left: 10%;
-    padding-top:5%;
-    display: flex;
+    width:20%;
 }
 
-.subsection{
-    padding-top: 35%;
-    padding-left: 10%;
-    margin-bottom: 10%;
-
-}
-.card2{
-    width:25%;
-    padding-top:15%;
-    margin-left:10%;
-}
-
-.card1{
-    width: 20%;
-    margin-top: 5%;
+.title-container {
+    height: 5%;
+    margin: 0px;
 }
