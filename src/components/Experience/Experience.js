@@ -9,29 +9,32 @@ export class Experience extends Component {
     return (
       <div className='section'>
         <div className='title-container'>
-            <h5 className='title-text'>some relevant experience  :</h5>
+            <div className='title-text'><span role="img" aria-label="girl-dev">👩‍💻 </span> 
+              <span>&#60;</span>some relevant experience/<span>&#62;</span></div>
         </div>
         <div className='cards-container'>
           <div className='card1'>
             <Cards 
-              title='ML INTERN'
               imageUrl={'aieradesignlogo.png'}
-              body='currently here'/>
+              title='machine learning intern'
+              date='may 2022 - present'
+              body='developing scalable components that improve user experience'/>
           </div>
           <div className='card2'>
-            <Cards 
-            title='SUMMER INTERN'
-            imageUrl={'hellome.png'}
-            body='testing body '
+             <Cards 
+             imageUrl={'westerndev.png'}
+            title='vp of developer teams'
+            date='may 2022 - present'
+             body='managing the progress of all developer portfolios'
           />
           </div>
           <div className='card3'>
-             <Cards 
-            title='SUMMER INTERN'
-            imageUrl={'westerndev.png'}
-            body='testing body '
+            <Cards 
+            imageUrl={'hellome.png'}
+            title='summer intern'
+            date='summer 2020 '
+             body='Conducted projects to: advance the customer outreach pipeline, create a dynamic landing page, extend post-purchase drip campaign, and develop customer guide cards. '
           />
-
           </div>
         </div>
         </div>

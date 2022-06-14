@@ -2,8 +2,9 @@
     width:40%;
     display: flex;
     padding: 11% 0% 0% 0%;
-    margin-left:8%;
+    margin-left:4%;
 }
+
 .current-info{
     letter-spacing: 4px;
     font-family: 'Playfair Display', serif;
@@ -18,16 +19,16 @@
     letter-spacing: 4px;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
-    margin-left: 5%;
-    padding-left: 17%;
+    margin-left: 4.5%;
+    padding-left: 13%;
     padding-top: 2px;
-    width: 25%;
+    width: 28%;
     text-align: left;
 }
 .typewriter {
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange;
+    border-right: .15em solid rgb(104, 125, 114);
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */

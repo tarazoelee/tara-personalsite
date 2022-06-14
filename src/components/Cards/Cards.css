@@ -2,41 +2,61 @@
     display: flex;
     cursor: pointer;
     position: relative;
-    text-align: center;
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.1em;
-    margin: 2%;
-    border-radius: 5%;
+    margin: 10px;
+    border-radius: 20px;
     align-items: center;
 }
 
-h3 {
+.title {
     color: white;
     font-size: x-large;
-    margin-top: 25%;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-left: 30px;
 }
+
 .image-container{
     overflow:hidden;
     border-radius: 5%;
     width:425px;
     height:450px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.75;
+    transition:0.5s ease;
+}
+
+.card-container:hover .overlay{
+    opacity: 0;
+}
+.card-container:hover .image-container{
+    opacity: 1;
 }
 
 .overlay{
     position: absolute;
-    transition: 1s ease;
+    transition: 0.5s ease;
     background-color: #292929cd;
-    border-radius: 5%;
+    border-radius: 20px;
     width: 425px;
     height: 450px;
 }
-p {
+.date {
     color: white;
     opacity: 1;
-    margin-top: 20%;
-    font-size: large;
+    font-size: small;
     font-weight: 500px;
+    margin-left: 30px;
+}
+.body{
+    color: white;
+    opacity: 1;
+    font-size: medium;
+    font-weight: 500px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width:75%;
 }
 
 
