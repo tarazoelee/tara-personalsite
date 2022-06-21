@@ -2,7 +2,7 @@ import React from 'react'
 
 function Education(){
     return (
-        <div className='subsection'>
+        <div className='sub-section'>
          <div className='title-container'>
             <div className='title-text'><span role="img" aria-label="paper"> 📝 </span> 
               <span>&#60;</span>education/<span>&#62;</span>

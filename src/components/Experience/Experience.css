@@ -2,16 +2,18 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-    margin-top:110px;
+    justify-content: start;
+    margin-top:50px;
     align-content: center;
+    padding: 0% 10%;
+    margin-left:150px
 }
 
 .info-container {
     font-family: 'Playfair Display', serif;
     letter-spacing: .05em;
     color: #686866;
-    padding-left:250px
+    padding-left:350px;
 }
 
 .info-container p {
@@ -31,18 +33,21 @@
 .school-container {
     background-color: white;
     border-radius: 40px;
-    width: 75%;
+    width:60%;
     padding: 30px 50px 20px 50px;
     margin-top:50px;
+    margin-right:0;
 }
 
 .section {
-    padding-top: 5%;
-    padding-bottom:5%;
+    padding:5% 0% 5% 0%;
+    border: 1px solid black;
 }
 
 .sub-section{
     margin-top: 5%;
+    border:1px solid black;
+    padding-right:0;
 }
 
 .title-text {
@@ -57,7 +62,6 @@
     font-family: 'Playfair Display', serif;
     margin-top:75px;
     width: 25%;
-    margin-left:175px;
-    margin-bottom:100px;
+    margin-left:300px;
 }
 

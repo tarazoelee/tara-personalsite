@@ -1,0 +1,40 @@
+img{
+    border-radius: 50%;
+    width:250px;
+    height:250px;
+}
+
+.my-pic{
+    margin-left:100px;
+}
+
+.descript{
+    padding: 5px 80px 5px 50px;
+}
+
+.about-container{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.08em;
+    line-height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    padding-left:150px;
+    width:75%;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(190, 117, 162);
+    transition: 0.3s;
+}
+a:hover{
+    color:rgb(172, 101, 145);
+}
+
+.goodreads{
+    font-size: smaller;
+    font-style: italic;
+
+}
