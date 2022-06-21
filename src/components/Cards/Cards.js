@@ -1,17 +1,23 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React,{useState} from 'react'
 import './Cards.css'
 
-function Cards({title,imageUrl,body}) {
+class Cards extends React.Component {
+
+  render(){
+
   return (
-    <div className='card-container'>
-        <img src={imageUrl} alt='' className='image-container'></img>
-      <div className='overlay'>
-          <h3>{title}</h3>
-          <p>{body}</p>
+    <div className='card-container' >
+        <img src={this.props.imageUrl} className='image-container'></img>
+    <div className='overlay'>
+            <div className='title'>{this.props.title}</div>
+            <div className='date'>{this.props.date}</div>
+            <div className='body'> {this.props.body}</div>
       </div>
-    </div>
-  )
+    
+      </div>
+);
+  }
 }
+
 
 export default Cards

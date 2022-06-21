@@ -1,31 +1,65 @@
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    margin-top:50px;
+    align-content: center;
+    padding: 0% 10%;
+    margin-left:150px
+}
+
+.info-container {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: .05em;
+    color: #686866;
+    padding-left:350px;
+}
+
+.info-container p {
+    font-size: smaller;
+}
+
+.program {
+    font-size: large;
+    font-weight: 700;
+}
+
+.school {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.school-container {
+    background-color: white;
+    border-radius: 40px;
+    width:60%;
+    padding: 30px 50px 20px 50px;
+    margin-top:50px;
+    margin-right:0;
+}
+
+.section {
+    padding:5% 0% 5% 0%;
+}
+
+.sub-section{
+    margin-top: 50px;
+    padding-right:0;
+    height:800px;
+}
+
 .title-text {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: lighter;
     letter-spacing: .15em;
-    font-family: 'Playfair Display', serif;
     font-weight: 700;
     color: #5a5a58;
 }
 
-.section {
-    padding-left: 10%;
-    padding-top:5%;
-    display: flex;
+.title-container {
+    font-family: 'Playfair Display', serif;
+    margin-top:75px;
+    margin-left:300px;
 }
 
-.subsection{
-    padding-top: 35%;
-    padding-left: 10%;
-    margin-bottom: 10%;
-
-}
-.card2{
-    width:25%;
-    padding-top:15%;
-    margin-left:10%;
-}
-
-.card1{
-    width: 20%;
-    margin-top: 5%;
-}

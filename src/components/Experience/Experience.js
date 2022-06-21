@@ -3,29 +3,47 @@ import './Experience.css'
 import Cards from '../Cards/Cards'
 
 
-
 export class Experience extends Component {
   render() {
     return (
       <div className='section'>
         <div className='title-container'>
-            <h5 className='title-text'>some relevant experience  :</h5>
+            <div className='title-text'><span role="img" aria-label="girl-dev">👩‍💻 </span> 
+              <span>&#60;</span>some relevant experience/<span>&#62;</span></div>
         </div>
-        
-        <div className='card1'>
-          <Cards 
-            title='ML INTERN'
-            imageUrl={'aieradesignlogo.png'}
-            body='currently here'/>
-        </div>
-          
-            <div className='card2'>
+        <div className='cards-container'>
+          <div className='card1'>
             <Cards 
-            title='SUMMER INTERN'
-            imageUrl={'hellome.png'}
-            body='testing body '
-          /></div>
-      
+              imageUrl={'images/aieradesignlogo.png'}
+              title='machine learning intern'
+              date='may 2022 - present'
+              body='Developing scalable components that improve user experience'/>
+          </div>
+          <div className='card2'>
+             <Cards 
+             imageUrl={'images/westerndev.png'}
+            title='vp of developer teams'
+            date='may 2022 - present'
+             body='Managing the progress of all developer portfolios'
+          />
+          </div>
+          <div className='card3'>
+            <Cards 
+            imageUrl={'images/hellome.png'}
+            title='summer intern'
+            date='summer 2020 '
+             body='Conducted projects to: advance the customer outreach pipeline, create a dynamic landing page, extend post-purchase drip campaign, and develop customer guide cards. '
+          />
+          </div>
+          <div className='card5'>
+            <Cards 
+            imageUrl={'images/westernai.png'}
+            title='UI/UX developer & designer'
+            date='september 2020-may 2021'
+             body='Designed and developed the project website'
+          />
+          </div>
+        </div>
         </div>
     )
   }

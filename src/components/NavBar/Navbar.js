@@ -14,10 +14,7 @@ class Navbar extends Component {
             EXPERIENCE
           </a>
            <a  href='/Interests' className='topic'>
-            INTERESTS & AWARDS
-          </a>
-            <a  href='/Education' className='topic'>
-            EDUCATION
+            EDUCATION & SKILLS
           </a>
           <a  href='/Contact' className='topic'>
             CONTACT

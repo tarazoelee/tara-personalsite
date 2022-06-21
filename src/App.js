@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar/Navbar.js'
 import Welcome from './components/Welcome/Welcome';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
 import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
+import Navbar from './components/NavBar/Navbar'
+import AboutMe from './components/AboutMe/AboutMe';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
@@ -21,12 +24,21 @@ function App() {
           </Routes>
         </div>
       </Router>
-       <Fade duration={3000}>
+       <Slide bottom>
          <Experience></Experience>
-       </Fade>
-       <Fade duration={3000}>
-         <Education></Education>
-       </Fade>
+       </Slide>
+       <div className='ed-about'>
+        <Slide left>
+          <Education></Education>
+        </Slide>
+        <Slide right>
+         <Skills></Skills>
+        </Slide>
+       </div>
+       <Slide bottom>
+          <AboutMe></AboutMe>
+       </Slide>
+       
     </>
   );
 }
