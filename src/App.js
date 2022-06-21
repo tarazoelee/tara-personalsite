@@ -28,7 +28,7 @@ function App() {
          <Experience></Experience>
        </Slide>
        <div className='ed-about'>
-        <Slide bottom>
+        <Slide left>
           <Education></Education>
         </Slide>
         <Slide right>

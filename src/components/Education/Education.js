@@ -16,13 +16,13 @@ function Education(){
             <p>relevant coursework: Java OOP, algorithms and data structures, digital logic systems, scripting programming </p>
           </div>
           <div className='school-container'>
-            <div className='program'>Ontario Secondary School Diploma - <span className='school'>Branskome Hall, 2020 </span></div>
+            <div className='program'>Ontario Secondary School Diploma - <span className='school'>Branksome Hall, 2020 </span></div>
             <p>Ontario Scholar, 2020</p>
             <p>High Honours, 2017-2020</p>
             <p>Duke of Edinburgh Award 2018 </p>
           </div>
           <div className='school-container'>
-            <div className='program'>International Baccalaureate Diploma - <span className='school'>Branskome Hall, 2020 </span></div>
+            <div className='program'>International Baccalaureate Diploma - <span className='school'>Branksome Hall, 2020 </span></div>
           </div>
         </div>
         </div>

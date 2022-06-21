@@ -1,40 +1,51 @@
-img{
-    border-radius: 50%;
-    width:250px;
-    height:250px;
-}
-
-.my-pic{
-    margin-left:100px;
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20% 150px 25%;
 }
 
 .descript{
     padding: 5px 80px 5px 50px;
-}
-
-.about-container{
     font-family: 'Playfair Display', serif;
-    letter-spacing: 0.08em;
-    line-height: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 300px;
-    padding-left:150px;
-    width:75%;
+        letter-spacing: 0.08em;
+        line-height: 2em;
+    padding-top: 50px;
 }
 
 a{
     text-decoration: none;
-    color:rgb(190, 117, 162);
+    color:#c02886;
     transition: 0.3s;
 }
 a:hover{
-    color:rgb(172, 101, 145);
+    color:#7f1e5a;
 }
 
 .goodreads{
     font-size: smaller;
     font-style: italic;
+}
 
+.my-pic img{ 
+    border-radius: 50%;
+    width:auto;
+    height:300px;
+}
+
+.contact-title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .15em;
+    color: rgb(84, 84, 84);
+    margin-top:50px;
+}
+
+.contact-info {
+    letter-spacing: 0.08em;
+    font-size: 16px;
+}
+
+.email {
+    color: #989898;
 }

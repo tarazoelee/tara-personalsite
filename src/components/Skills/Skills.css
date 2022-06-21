@@ -7,11 +7,27 @@ img{
 .tools-container{
     display: flex;
     justify-content: center;
-    margin-top:300px;
+    flex-wrap: wrap;
+    margin-top:70px;
+    column-gap: 70px;
+    row-gap: 50px;
+    padding-left:50px;
+    width:60%;
+    
 }
 .skills-container{
-        border:1px solid black;
+    height: 800px;
+    margin-right:75px;
+    margin-top:75px;
+    font-family: 'Playfair Display', serif;
 }
+
 .title{
-    
+    margin-right:10px;
+}
+
+.skill{
+    text-align: center;
+    letter-spacing: 0.07em;
+    font-size: smaller;
 }

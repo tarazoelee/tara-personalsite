@@ -14,14 +14,14 @@ export class Experience extends Component {
         <div className='cards-container'>
           <div className='card1'>
             <Cards 
-              imageUrl={'aieradesignlogo.png'}
+              imageUrl={'images/aieradesignlogo.png'}
               title='machine learning intern'
               date='may 2022 - present'
               body='Developing scalable components that improve user experience'/>
           </div>
           <div className='card2'>
              <Cards 
-             imageUrl={'westerndev.png'}
+             imageUrl={'images/westerndev.png'}
             title='vp of developer teams'
             date='may 2022 - present'
              body='Managing the progress of all developer portfolios'
@@ -29,7 +29,7 @@ export class Experience extends Component {
           </div>
           <div className='card3'>
             <Cards 
-            imageUrl={'hellome.png'}
+            imageUrl={'images/hellome.png'}
             title='summer intern'
             date='summer 2020 '
              body='Conducted projects to: advance the customer outreach pipeline, create a dynamic landing page, extend post-purchase drip campaign, and develop customer guide cards. '
@@ -37,7 +37,7 @@ export class Experience extends Component {
           </div>
           <div className='card5'>
             <Cards 
-            imageUrl={'westernai.png'}
+            imageUrl={'images/westernai.png'}
             title='UI/UX developer & designer'
             date='september 2020-may 2021'
              body='Designed and developed the project website'
