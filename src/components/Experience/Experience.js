@@ -3,7 +3,6 @@ import './Experience.css'
 import Cards from '../Cards/Cards'
 
 
-
 export class Experience extends Component {
   render() {
     return (
@@ -18,14 +17,14 @@ export class Experience extends Component {
               imageUrl={'aieradesignlogo.png'}
               title='machine learning intern'
               date='may 2022 - present'
-              body='developing scalable components that improve user experience'/>
+              body='Developing scalable components that improve user experience'/>
           </div>
           <div className='card2'>
              <Cards 
              imageUrl={'westerndev.png'}
             title='vp of developer teams'
             date='may 2022 - present'
-             body='managing the progress of all developer portfolios'
+             body='Managing the progress of all developer portfolios'
           />
           </div>
           <div className='card3'>
@@ -36,6 +35,14 @@ export class Experience extends Component {
              body='Conducted projects to: advance the customer outreach pipeline, create a dynamic landing page, extend post-purchase drip campaign, and develop customer guide cards. '
           />
           </div>
+          <div className='card5'>
+            <Cards 
+            imageUrl={'westernai.png'}
+            title='UI/UX developer & designer'
+            date='september 2020-may 2021'
+             body='Designed and developed the project website'
+          />
+          </div>
         </div>
         </div>
     )
@@ -43,28 +50,3 @@ export class Experience extends Component {
 }
 
 export default Experience
-
-{/** <div className='cards-conatiner'>
-        <div className='card'>
-          
-          <Cards 
-            title='ML INTERN'
-            imageUrl={'aieradesignlogo.png'}
-            body='currently here'/>
-        </div>
-          
-            <div className='card'>
-            <Cards 
-            title='SUMMER INTERN'
-            imageUrl={'hellome.png'}
-            body='testing body '
-          /></div>
-      
-        <div className='card'>
-            <Cards 
-            title='SUMMER INTERN'
-            imageUrl={'westerndev.png'}
-            body='testing body '
-          /></div>
-        </div>
-        </div>*/}

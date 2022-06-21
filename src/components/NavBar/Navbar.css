@@ -1,12 +1,12 @@
 .topic{
-    color:#63635e;
+    color:#dddddd;
     padding:10px 50px 5px 5px;
     text-decoration: none;
     transition:0.3s;
     letter-spacing: .15em;
 }
 .topic:hover{
-    color:#8f9c7e;
+    color:#ffffff;
 }
 
 .navbar-container{

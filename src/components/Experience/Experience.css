@@ -4,29 +4,45 @@
     flex-direction: row;
     justify-content: center;
     margin-top:110px;
-}
-.card1 {
-    width: 25%;
- 
+    align-content: center;
 }
 
-.card2 {
-    width: 25%;
-
+.info-container {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: .05em;
+    color: #686866;
+    padding-left:250px
 }
 
-.card3 {
-    width: 25%;
+.info-container p {
+    font-size: smaller;
+}
 
+.program {
+    font-size: large;
+    font-weight: 700;
+}
+
+.school {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.school-container {
+    background-color: white;
+    border-radius: 40px;
+    width: 75%;
+    padding: 30px 50px 20px 50px;
+    margin-top:50px;
 }
 
 .section {
     padding-top: 5%;
+    padding-bottom:5%;
 }
 
-.subsection {
-    padding-top: 10%;
-    margin-bottom: 10%;
+.sub-section{
+    margin-top: 5%;
 }
 
 .title-text {
@@ -41,6 +57,7 @@
     font-family: 'Playfair Display', serif;
     margin-top:75px;
     width: 25%;
-    text-align: center;
-    margin-left:10%;
+    margin-left:175px;
+    margin-bottom:100px;
 }
+
