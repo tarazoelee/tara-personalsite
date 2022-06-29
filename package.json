@@ -1,6 +1,5 @@
 {
   "name": "taras-personalsite",
-  "homepage": "http://tarazoelee.com/taras-personalsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
