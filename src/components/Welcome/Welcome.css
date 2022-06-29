@@ -1,16 +1,19 @@
 .container{
     width:40%;
     display: flex;
-    padding: 11% 0% 0% 0%;
+    padding: 400px 0% 0% 0%;
+}
+
+.welcome-container{
+    padding-bottom:220px
 }
 
 .current-info{
     letter-spacing: 4px;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
-    margin-left: 22%;
-    padding-left: 33%;
-    padding-top: 5%;
+    margin-left: 1050px;
+    padding-top: 30px;
     width: 25%;
     color: rgb(255, 254, 245);
 }

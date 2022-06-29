@@ -4,9 +4,9 @@ import './Skills.css'
 function Skills() {
   return (
     <div className='skills-container'>
-        <div className='title'>
-            <div className='title-text'><span role="img" aria-label="hammer">🔨 </span> 
-              <span>&#60;</span>my tools/<span>&#62;</span></div>
+        <div className='title-text'>
+            <span role="img" aria-label="hammer">🔨 </span> 
+            <span>&#60;</span>my tools/<span>&#62;</span>
         </div>
         <div className='tools-container'>
             <div className='skill'>
@@ -22,7 +22,7 @@ function Skills() {
                 <div>github</div>
             </div>
             <div className='skill'>
-                <img src={'images/html5.png'}></img>
+                <img src={'html5.png'} ></img>
                 <div>html5</div>
             </div>
             <div className='skill'>
@@ -38,6 +38,12 @@ function Skills() {
                 <div>c#</div>
             </div>
         </div>
+        <div className='spotify-title'>
+            <div className='title-text'><span role="img" aria-label="trumpet">🎺 </span> 
+              <span>&#60;</span>what i'm listening to/<span>&#62;</span></div>
+        </div>
+        <script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async></script>
+        <iframe src="https://open.spotify.com/embed/playlist/43hprfEQtE1t69ehiXwfhp?utm_source=generator" width="550" height="450" frameBorder="0" allowfullscreen="" ></iframe>
     </div>
   )
 }
