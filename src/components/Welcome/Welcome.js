@@ -4,7 +4,7 @@ import Emoji from '../Emojis/Emoji'
 
 function Welcome() {
   return (
-    <>
+    <div className='welcome-container'>
     <div className='container'>
         <div className='typewriter'>
             hi, i'm tara!
@@ -21,7 +21,7 @@ function Welcome() {
           currently working at Aiera as a machine learning intern 
           <span role="img" aria-label="stars">✨</span>
     </div>
-    </>
+    </div>
   )
 }
 export default Welcome
