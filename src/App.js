@@ -14,7 +14,6 @@ function App() {
   return (
     <>
         <div className='welcome-container'>
-          <Navbar></Navbar>
           <Welcome></Welcome>
           <Routes>
             <Route pattern='/' exact component={<Welcome></Welcome>}></Route>
