@@ -13,16 +13,15 @@ import Skills from './components/Skills/Skills';
 function App() {
   return (
     <>
-      <Router>
         <div className='welcome-container'>
+          <Navbar></Navbar>
           <Welcome></Welcome>
           <Routes>
-            <Route pattern='/' exact component={Welcome}></Route>
-            <Route pattern='/Experience' exact component={Experience}></Route>
-            <Route path='/Education' exact component={Education}></Route>
+            <Route pattern='/' exact component={<Welcome></Welcome>}></Route>
+            <Route pattern='/Experience' exact component={<Experience/>}></Route>
+            <Route path='/Education' exact component={<Education/>}></Route>
           </Routes>
         </div>
-      </Router>
        <Slide bottom>
          <Experience></Experience>
        </Slide>

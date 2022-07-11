@@ -7,21 +7,23 @@ class Navbar extends Component {
     return (
       <nav className='navbar'> 
       <div className='navbar-container'>
-        <div>
-          <source srouce="/public/logo.mp4" type='/video/mp4'></source>
-        </div>
+        <ul>
+        <li>
            <a  href='/Experience' className='topic'>
             EXPERIENCE
           </a>
+          </li>
+          <li>
            <a  href='/Interests' className='topic'>
             EDUCATION & SKILLS
           </a>
+          </li>
+          <li>
           <a  href='/Contact' className='topic'>
             CONTACT
           </a>
-          <div className='menu-icon'>
-
-          </div>
+          </li>
+        </ul>
       </div>
       </nav>
   )
