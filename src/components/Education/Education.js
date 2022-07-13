@@ -1,10 +1,11 @@
 import React from 'react'
+import './Education.css'
 
 function Education(){
     return (
-        <div className='sub-section'>
-         <div className='title-container'>
-            <div className='title-text'><span role="img" aria-label="paper"> 📝 </span> 
+        <div className='ed-container'>
+         <div className='title-cont'>
+            <div className='title-txt'><span role="img" aria-label="paper"> 📝 </span> 
               <span>&#60;</span>education/<span>&#62;</span>
             </div>
         </div>

@@ -1,24 +1,35 @@
 img{
     width:50px;
-    height:50px;
     color:grey;
 }
 
 .tools-container{
+    max-width: 70%;
+    align-self: center;
+}
+.logo-container{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin-top:70px;
+    justify-content: center;
     column-gap: 70px;
     row-gap: 50px;
-    padding-left:30px;
-    width:60%;
+    margin-top:50px;
+    align-self: center;
 }
+
 .skills-container{
-    height: 800px;
-    margin-top:75px;
     font-family: 'Playfair Display', serif;
     padding:0;
+    max-width: 800px;
+    padding-left:5%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 950px) {
+    .skills-container {
+       padding-top:10%;
+    }
 }
 
 .spotify-title{
@@ -33,4 +44,19 @@ img{
 
 iframe{
     padding-top:20px;
+}
+
+.spotify-frame{
+    display: flex;
+    padding-left:10%;
+}
+
+.spotify-container{
+     align-self: center;
+}
+
+@media screen and (max-width: 900px) {
+    .spotify-frame {
+        max-width:70%;
+    }
 }

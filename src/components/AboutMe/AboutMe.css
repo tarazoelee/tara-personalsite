@@ -2,13 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 300px 20% 150px 25%;
+    padding: 10% 15%;
 }
 
 .descript{
     padding: 5px 80px 5px 50px;
     font-family: 'Playfair Display', serif;
-        letter-spacing: 0.08em;
+    letter-spacing: 0.08em;
         line-height: 2em;
     padding-top: 50px;
 }
@@ -48,4 +48,18 @@ a:hover{
 
 .email {
     color: #989898;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-container {
+        flex-wrap: wrap;
+        padding-top: 15%;
+    }
+    .my-pic img{
+        max-width:200px;
+        max-height: 200px;
+    }
+    .descript{
+        min-width: 300px;
+    }
 }
