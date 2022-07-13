@@ -1,7 +1,19 @@
-.welcome-container{
-    background: linear-gradient(to left, #a6608d 50%,white 50%);
-    top:0;
-}
-.ed-about{
+
+.ed-about {
     display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 950px) {
+    .ed-about {
+        flex-wrap: wrap;
+    }
+}
+
+.whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
 }

@@ -2,22 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: start;
     margin-top:50px;
-    align-content: center;
-    padding: 0% 5%;
-    margin-left:150px
-}
-
-.info-container {
-    font-family: 'Playfair Display', serif;
-    letter-spacing: .05em;
-    color: #686866;
-    padding-left:350px;
-}
-
-.info-container p {
-    font-size: smaller;
+    min-width:50%;
+    align-self:center;
+    justify-content: center;
+    transition:0.3s;
 }
 
 .program {
@@ -30,23 +19,10 @@
     font-weight: 500;
 }
 
-.school-container {
-    background-color: white;
-    border-radius: 40px;
-    width:60%;
-    padding: 30px 50px 20px 50px;
-    margin-top:50px;
-    margin-right:0;
-}
-
 .section {
-    padding:5% 0% 5% 0%;
-}
-
-.sub-section{
-    margin-top: 50px;
-    padding-right:0;
-    height:800px;
+    padding:5% 0% 10% 0%;
+    display:flex;
+    flex-direction: column;
 }
 
 .title-text {
@@ -59,7 +35,7 @@
 
 .title-container {
     font-family: 'Playfair Display', serif;
-    margin-top:75px;
-    margin-left:275px;
+    margin-top: 75px;
+    padding-left:5%;
 }
 
