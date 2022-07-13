@@ -23,7 +23,7 @@ function Skills() {
                 <div>github</div>
             </div>
             <div className='skill'>
-                <img src={'html5.png'} ></img>
+                <img src={'images/html5.png'} ></img>
                 <div>html5</div>
             </div>
             <div className='skill'>

@@ -10,13 +10,6 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
-    .card-container {
-        width:200px;
-        font-size: small;
-    }
-}
-
 .title {
     color: white;
     font-size: large;
@@ -24,11 +17,7 @@
     margin-top: 10%;
     margin-left: 10%;
 }
-@media screen and (max-width: 1200px) {
-    .title{
-        font-size: x-small;
-    }
-}
+
 
 .image-container{
     overflow:hidden;
@@ -74,18 +63,26 @@
 
 @media screen and (max-width: 1200px) {
     .date {
-        font-size: x-small;
+        font-size: small;
     }
     .body{
-        font-size: x-small;
+        font-size: small;
     }
 
     .image-container {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 270px;
     }
     .overlay {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 270px;
+    }
+    .title {
+        font-size: small;
+    }
+
+    .card-container {
+        width: 250px;
+        font-size: small;
     }
 }
