@@ -37,7 +37,7 @@ a:hover{
     font-size: 18px;
     font-weight: 700;
     letter-spacing: .15em;
-    color: rgb(84, 84, 84);
+    color: #1b1b1b;
     margin-top:50px;
 }
 
@@ -47,7 +47,11 @@ a:hover{
 }
 
 .email {
-    color: #989898;
+    color: #1b1b1b;
+    transition: 0.5s ease;
+}
+.email:hover{
+    font-size:18px;
 }
 
 @media screen and (max-width: 1000px) {

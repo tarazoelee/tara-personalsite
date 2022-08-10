@@ -1,12 +1,10 @@
 .cards-container{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     margin-top:50px;
-    min-width:50%;
-    align-self:center;
+    transition:0.7s;
     justify-content: center;
-    transition:0.3s;
+    align-items: center;
 }
 
 .program {
@@ -30,12 +28,11 @@
     font-weight: lighter;
     letter-spacing: .15em;
     font-weight: 700;
-    color: #5a5a58;
+    color: #1b1b1b;
 }
 
 .title-container {
     font-family: 'Playfair Display', serif;
-    margin-top: 75px;
     padding-left:5%;
 }
 
