@@ -12,13 +12,13 @@
     font-weight: lighter;
     letter-spacing: .15em;
     font-weight: 700;
-    color: #5a5a58;
+    color: #1b1b1b;
 }
 
 .info-container {
     font-family: 'Playfair Display', serif;
     letter-spacing: .05em;
-    color: #686866;
+    color: #1b1b1b;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,4 +37,5 @@
     max-width: 800px;
     min-width: 250px;
     margin: 50px 50px 0px 50px;
+    box-shadow: 0 4px 8px 0 rgba(34, 34, 34, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
 }
