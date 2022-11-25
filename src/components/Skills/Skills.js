@@ -32,13 +32,18 @@ function Skills() {
             </div>
             <div className='skill'>
                 <img src={'images/react.png'}></img>
-                <div>react</div>
+                <div>reactjs</div>
             </div>
             <div className='skill'>
                 <img src={'images/csharp.png'}></img>
                 <div>c#</div>
             </div>
+             <div className='skill'>
+                <img src={'images/figma.png'}></img>
+                <div>figma</div>
             </div>
+            </div>
+            
         </div>
         <div className='spotify-container'>
         <div className='spotify-title'>

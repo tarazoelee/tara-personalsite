@@ -27,9 +27,9 @@ export class Experience extends Component {
              imageUrl={'images/westerndev.png'}
               title='vp of developer teams'
               date='may 2022 - present'
-             body1=' Oversee the clubs entire portfolio by collaborating with each of 3-4 teams as they develop a web app for their client'
-             body2='Create a comprehensive Team Roadmap for the year, develop role descriptions, and detailed documentation to support developers and team leads in their roles'
-            body3='Work as a team lead to design and develop the clubs website using Figma, ReactJS and Github'
+             body1=' Manage a team of 50 to oversee the development of four web applications simultaneously, produced by four separate developer teams, designers, tech leads and community leads'
+             body2='Lead a team of five developers in the design and development of the clubs website using Figma, ReactJS, and Github, with a careful attention to detail while turning a technical problem into a tangible solution'
+            body3='Conduct the beginning to end hiring process for over 50 positions; Reviewing applications, conducting over 50 interviews, and onboarding new members'
           />
           </div>
           <div className='card3'>
