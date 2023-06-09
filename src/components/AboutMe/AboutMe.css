@@ -57,11 +57,9 @@ a:hover{
 
 .email {
     color: #1b1b1b;
-    transition: 0.5s ease;
+    text-decoration: underline;
 }
-.email:hover{
-    font-size:18px;
-}
+
 
 @media screen and (max-width: 1000px) {
     .about-container {
@@ -75,4 +73,11 @@ a:hover{
     .descript{
         min-width: 300px;
     }
+}
+
+.resume-container {
+    color: black;
+    text-decoration: none;
+    padding: 20px 0px;
+    font-weight: bold;
 }

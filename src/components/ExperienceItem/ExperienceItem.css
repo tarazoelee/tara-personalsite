@@ -1,0 +1,48 @@
+.item-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-info{
+    padding: 20px 100px;
+    font-size: 16px;
+}
+
+.company-img{
+    padding-top: 15px;
+    width:50px;
+    height:48px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    gap:3rem;
+}
+
+.company, .date{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.role{
+    font-size: 20px;
+}
+
+.date{
+    align-self: flex-end;
+}
+
+.item-container{
+    padding-top:25px;
+    font-family: 'Playfair Display', serif;
+    transition: 0.2s;
+}
+
+.item-container:hover{
+    transform: scale(1.01);
+}
+
+.item-descript{
+    font-style: italic;
+}

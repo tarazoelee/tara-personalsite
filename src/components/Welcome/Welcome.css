@@ -1,20 +1,32 @@
-.left-container{
-    width:25%;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left:23%;
+
+.welcome-image{
+    height:35px;
+    width:35px;
+    object-fit: fill;
+    margin-bottom:0;
 }
 
 .container{
     display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding-top:400px;
-    padding-bottom:400px;
-    background: linear-gradient(to left, #a6608d 50%, white 50%);
-    top:0;
-    bottom:0;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 5% 60px 5%;
 }
+
+.headshot{
+    width:500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-container{
+}
+
 
 .current-info{
     letter-spacing: 0.08rem;
