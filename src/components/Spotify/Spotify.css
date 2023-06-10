@@ -1,0 +1,21 @@
+.spotify-container{
+    padding: 75px 10% 50px 10%;
+        font-family: 'Playfair Display', serif;
+}
+.spotify-frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-text {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 900px) {
+    .spotify-frame {
+        max-width: 70%;
+    }
+}

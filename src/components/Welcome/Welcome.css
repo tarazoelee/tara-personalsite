@@ -16,6 +16,11 @@
 .headshot{
     width:500px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition:0.3s;
+}
+
+.headshot:hover {
+    transform: scale(1.015);
 }
 
 .left-container {
@@ -47,6 +52,7 @@
     padding-top: 4px;
     text-align: left;
 }
+
 .typewriter {
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */

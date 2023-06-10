@@ -1,11 +1,15 @@
 .additionalexperience-container {
-    padding: 100px 33% 200px 200px;
+    padding: 100px 28% 50px 10%;
     font-family: 'Playfair Display', serif;
+    background-color: rgb(255, 248, 235);
 }
 
-
 .title-text {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+.title-container{
+    padding-bottom:20px;
 }

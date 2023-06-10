@@ -10,7 +10,7 @@ function Welcome() {
               hi, i'm tara!  
         </div>
         <div className='sub-heading'>
-            a software engineering student based in toronto, on. <br/><br/>
+            a software engineering student based in toronto, on.<br></br><br/>
             <span className='sentence2'>
               i like building creative and intuitive products.</span>
         </div>

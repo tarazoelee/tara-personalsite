@@ -1,8 +1,9 @@
 
 .ed-about {
+    padding: 100px 10% 50px 10%;
     display: flex;
-    justify-content: center;
-
+    border: 1px solid black;
+    gap: 10%;
 }
 
 @media screen and (max-width: 950px) {
@@ -11,9 +12,3 @@
     }
 }
 
-.whole{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position:absolute;
-}

@@ -9,6 +9,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 import Skills from './components/Skills/Skills';
 import WorkExperience from './components/WorkExperience/WorkExperience';
 import AdditionalExperience from './components/AdditionalExperience/AdditionalExperience';
+import Spotify from './components/Spotify/Spotify';
 
 
 function App() {
@@ -28,9 +29,12 @@ function App() {
             <Education className='education'></Education>
           </Slide>
           <Slide right>
-          <Skills className='skills'></Skills>
+            <Skills className='skills'></Skills>
           </Slide>
        </div>
+       <Slide bottom>
+          <Spotify></Spotify>
+       </Slide>
        <Slide bottom>
           <AboutMe></AboutMe>
        </Slide>

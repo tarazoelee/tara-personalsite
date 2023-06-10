@@ -1,10 +1,9 @@
 .ed-container{
-    max-width:800px;
+    border: 1px solid black;
 }
 
 .title-cont {
     font-family: 'Playfair Display', serif;
-        padding-left: 5%;
 }
 
 .title-txt {
@@ -12,30 +11,12 @@
     font-weight: lighter;
     letter-spacing: .15em;
     font-weight: 700;
-    color: #1b1b1b;
 }
 
 .info-container {
     font-family: 'Playfair Display', serif;
     letter-spacing: .05em;
-    color: #1b1b1b;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.info-container p {
-    font-size: smaller;
-
-}
-
-.school-container {
-    background-color: white;
-    border-radius: 40px;
-    padding: 30px 50px 20px 50px;
-    margin-right: 0;
-    max-width: 800px;
-    min-width: 250px;
-    margin: 50px 50px 0px 50px;
-    box-shadow: 0 4px 8px 0 rgba(34, 34, 34, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
 }
