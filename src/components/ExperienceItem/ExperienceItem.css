@@ -22,12 +22,12 @@
 }
 
 .company, .date{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
-.role{
-    font-size: 18px;
+.role, .date{
+    font-size: 16px;
 }
 
 .date{
@@ -50,4 +50,5 @@
 
 .item-descript{
     font-style: italic;
+    font-size: 16px;
 }

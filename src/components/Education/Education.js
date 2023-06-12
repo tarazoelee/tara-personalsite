@@ -13,15 +13,15 @@ function Education(){
           <div className='school-container'>
             <div className='school-header'>
               <div className='school-title'>
-                <div> Western University </div>
-                <div>Software Engineering, Bachelor of Engineering</div>
-              </div>
-              <div className='school-date'>
-                  2020 - 2024
+                <div className='school-name'> Western University, 2020 - 2024 </div>
+                <div className='program'> Software Engineering, Bachelor of Engineering </div>
               </div>
             </div>
             <div className='school-body'>
-              <li> Dean's List </li>
+              <li> Dean's Honors List (2020-2023) </li>
+              <li> Current GPA: 3.9</li>
+              <li> Western Scholarship of Distinction: $2,500 awarded to students with an admissions average of 92% or higher</li>
+              <li> Courses: Operating Systems, Project Management, Databases, Algorithms & Data Structures, HCI Design, Web Programming</li>
             </div>
           </div>
         </div>

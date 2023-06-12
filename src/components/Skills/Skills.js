@@ -4,12 +4,11 @@ import './Skills.css'
 function Skills() {
   return (
     <div className='skills-container'>
-        <div className='tools-container'>
-            <div className='title-text'>
-                <span role="img" aria-label="hammer">🔨 </span> 
-                <span>&#60;</span>my tools/<span>&#62;</span>
-            </div>
-            <div className='logo-container'>
+        <div className='title-text'>
+            <span role="img" aria-label="hammer">🔨 </span> 
+            <span>&#60;</span>my tools/<span>&#62;</span>
+        </div>
+        <div className='logo-container'>
             <div className='skill'>
                 <img src={'images/java.png'}></img>
                 <div>java</div>
@@ -42,8 +41,10 @@ function Skills() {
                 <img src={'images/figma.png'}></img>
                 <div>figma</div>
             </div>
+            <div className='skill'>
+                <img src={'images/mysql.png'}></img>
+                <div>mysql</div>
             </div>
-            
         </div>
    </div>
   )

@@ -1,5 +1,4 @@
 .ed-container{
-    border: 1px solid black;
 }
 
 .title-cont {
@@ -14,9 +13,29 @@
 }
 
 .info-container {
+    margin-top: 50px;
     font-family: 'Playfair Display', serif;
     letter-spacing: .05em;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left:60px;
+}
+
+.school-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.program{
+    font-size: 16px;
+}
+
+.school-body{
+    margin-top:20px;
+    display: inline-block;
+}
+
+.school-body li{
+    padding-top:5px;
 }

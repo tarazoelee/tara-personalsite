@@ -3,9 +3,6 @@ img{
     color:grey;
 }
 
-.tools-container{
-    max-width: 70%;
-}
 .logo-container{
     display: flex;
     flex-wrap: wrap;
@@ -19,8 +16,7 @@ img{
 .skills-container{
     font-family: 'Playfair Display', serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
     flex-direction: column;
 }
 
@@ -35,8 +31,4 @@ img{
     text-align: center;
     letter-spacing: 0.07em;
     font-size: smaller;
-}
-
-iframe{
-    padding-top:20px;
 }

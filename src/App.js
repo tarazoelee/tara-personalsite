@@ -25,12 +25,16 @@ function App() {
         <AdditionalExperience></AdditionalExperience>
        </Fade>
        <div className='ed-about'>
+        <div  className='education'>
           <Slide left>
-            <Education className='education'></Education>
+            <Education></Education>
           </Slide>
+        </div>
+        <div className='skills'>
           <Slide right>
-            <Skills className='skills'></Skills>
+            <Skills></Skills>
           </Slide>
+        </div>
        </div>
        <Slide bottom>
           <Spotify></Spotify>
