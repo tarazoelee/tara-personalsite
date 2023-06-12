@@ -1,21 +1,15 @@
 .ed-container{
+        font-family: 'Noto Serif JP', serif;
 }
 
 .title-cont {
-    font-family: 'Playfair Display', serif;
-}
-
-.title-txt {
-    font-size: 20px;
-    font-weight: lighter;
-    letter-spacing: .15em;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .info-container {
     margin-top: 50px;
-    font-family: 'Playfair Display', serif;
-    letter-spacing: .05em;
+    font-family: 'Noto Serif JP', serif;
     display: flex;
     flex-direction: column;
     justify-content: center;

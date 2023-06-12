@@ -36,10 +36,9 @@
 
 .item-container{
     padding: 25px 50px;
-    font-family: 'Playfair Display', serif;
+font-family: 'Noto Serif JP', serif;
     transition: 0.3s;
     border-radius: 10px;
-    letter-spacing: 0.06rem;
 }
 
 .item-container:hover{

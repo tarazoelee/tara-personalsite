@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     padding: 100px 5% 60px 5%;
+    font-family: 'Noto Serif JP', serif;
 }
 
 .headshot{
@@ -34,8 +35,6 @@
 
 
 .current-info{
-    letter-spacing: 0.08rem;
-    font-family: 'Playfair Display', serif;
     font-weight: 500;
     width: 22%;
     color: rgb(255, 254, 245);
@@ -46,8 +45,6 @@
     text-align: center;
 }
 .sub-heading {
-    letter-spacing: 0.08rem;
-    font-family: 'Playfair Display', serif;
     font-weight: 500;
     padding-top: 4px;
     text-align: left;
@@ -62,7 +59,7 @@
     /* Keeps the content on a single line */
     /* margin: 0 auto;
     Gives that scrolling effect as the typing happens */
-    letter-spacing: .12em;
+    letter-spacing: .10em;
     /* Adjust as needed */
     animation:
         typing 3.0s steps(22, end),

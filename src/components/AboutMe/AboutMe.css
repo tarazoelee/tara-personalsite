@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10% 15% 5% 15%;
+    padding: 5% 15%;
 }
 
 .footer{
@@ -16,19 +16,18 @@
 }
 .descript{
     padding: 5px 80px 5px 50px;
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 0.08em;
-        line-height: 2em;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 2em;
     padding-top: 50px;
 }
 
 a{
     text-decoration: none;
-    color:#c02886;
+    color:#f6d589;
     transition: 0.3s;
 }
 a:hover{
-    color:#7f1e5a;
+    color:#421908;
 }
 
 .goodreads{
@@ -45,13 +44,11 @@ a:hover{
 .contact-title {
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: .15em;
     color: #1b1b1b;
     margin-top:50px;
 }
 
 .contact-info {
-    letter-spacing: 0.08em;
     font-size: 16px;
 }
 

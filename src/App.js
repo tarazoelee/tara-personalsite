@@ -36,6 +36,7 @@ function App() {
           </Slide>
         </div>
        </div>
+       
        <Slide bottom>
           <Spotify></Spotify>
        </Slide>

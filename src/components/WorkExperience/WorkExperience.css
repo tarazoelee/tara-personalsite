@@ -1,12 +1,7 @@
 .workexperience-container{
     padding: 100px 28% 50px 10%;
-    font-family: 'Playfair Display', serif;
-    background-color:  rgb(255, 251, 252);
+    font-family: 'Noto Serif JP', serif;
+    background-color: #f4f5f2;
+    color: black;
 }
 
-
-.title-text{
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}

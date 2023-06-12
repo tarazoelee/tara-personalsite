@@ -14,7 +14,7 @@ img{
 }
 
 .skills-container{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Noto Serif JP', serif;
     display: flex;
     justify-content: end;
     flex-direction: column;
@@ -29,6 +29,5 @@ img{
 
 .skill{
     text-align: center;
-    letter-spacing: 0.07em;
     font-size: smaller;
 }

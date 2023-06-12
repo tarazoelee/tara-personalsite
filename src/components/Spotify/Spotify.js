@@ -10,7 +10,7 @@ function Spotify() {
         </div>
         <div className='spotify-frame'>
             <script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async></script>
-            <iframe src="https://open.spotify.com/embed/playlist/43hprfEQtE1t69ehiXwfhp?utm_source=generator" width="70%" height="475" frameBorder="0" allowfullscreen="" ></iframe>
+            <iframe src="https://open.spotify.com/embed/playlist/43hprfEQtE1t69ehiXwfhp?utm_source=generator" width="60%" height="475" frameBorder="0" allowfullscreen="" ></iframe>
         </div>
     </div>
   )

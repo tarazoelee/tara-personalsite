@@ -1,18 +1,15 @@
 .spotify-container{
     padding: 75px 10% 50px 10%;
-        font-family: 'Playfair Display', serif;
+    font-family: 'Noto Serif JP', serif;
+     background-color: #f4f5f2;
 }
 .spotify-frame{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding:50px;
 }
 
-.title-text {
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
 
 @media screen and (max-width: 900px) {
     .spotify-frame {
