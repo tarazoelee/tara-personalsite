@@ -1,35 +1,22 @@
 import React,{useState, Component} from 'react';
-import {Link} from 'react-router-dom';
 import './Navbar.css'
+import { Link } from 'react-scroll';
 
-class Navbar extends Component {
-  render(){
-    return (
-      <nav className='navbar'> 
-      <div className='navbar-container'>
-        <ul>
-        <li>
-           <a  href='/Experience' className='topic'>
-            EXPERIENCE
-          </a>
-          </li>
-          <li>
-           <a  href='/Interests' className='topic'>
-            EDUCATION & SKILLS
-          </a>
-          </li>
-          <li>
-          <a  href='/Contact' className='topic'>
-            CONTACT
-          </a>
-          </li>
-        </ul>
-      </div>
-      </nav>
+function Navbar() {
+
+
+return (
+  <div className='nav-container'>
+    <ul>
+          <li><Link  to="work" spy={true} smooth={true} duration={1000}>Work</Link></li>
+          <li><Link  to="projects" spy={true} smooth={true} duration={1600}>Projects</Link></li>
+          <li><Link  to="education" spy={true} smooth={true} duration={2000}>Education</Link></li>
+          <li><Link  to="about" spy={true} smooth={true} duration={2000}>About</Link></li>
+    </ul>
+  </div>
   )
 
   }
-  
-}
+  //          <li><Link activeClass="active" to="welcome" spy={true} smooth={true}>Home</Link></li>
 
 export default Navbar

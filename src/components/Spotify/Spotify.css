@@ -1,7 +1,8 @@
 .spotify-container{
     padding: 75px 10% 50px 10%;
     font-family: 'Noto Serif JP', serif;
-     background-color: #f4f5f2;
+     background-color: #2a1807;
+     color:white;
 }
 .spotify-frame{
     display: flex;

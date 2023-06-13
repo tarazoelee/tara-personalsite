@@ -3,7 +3,7 @@
     padding:  10%;
     display: flex;
     gap: 100px;
-    background-color: #c7d5c8;
+    background-color: #f4f5f2;
 }
 
 @media screen and (max-width: 950px) {

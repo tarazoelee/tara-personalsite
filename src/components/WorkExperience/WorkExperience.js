@@ -5,7 +5,7 @@ import './WorkExperience.css'
 export class WorkExperience extends Component {
     render() {
         return(
-            <div className='workexperience-container'>
+            <div className='workexperience-container' id='work'>
                 <div className='title-container'>
                     <div className='title-text'>
                         <span role="img" aria-label="girl-dev">👩‍💻 </span> 

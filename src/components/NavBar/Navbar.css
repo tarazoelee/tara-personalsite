@@ -1,31 +1,23 @@
-.topic{
-    color:#dddddd;
-    padding:10px 50px 5px 5px;
-    text-decoration: none;
-    transition:0.3s;
-}
-.topic:hover{
-    color:#ffffff;
-}
 
-.navbar-container{
-    padding-right: 10%;
-    padding-top:300px;
-}
-.navbar{
+
+.nav-container{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     font-family: 'Noto Serif JP', serif;
-    font-weight: 700;
-    font-size: small;
+    margin-top:5%;
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    padding-left:20px;
 }
 
-a{
-    text-decoration: none;
-}
 li{
     list-style:none;
+    padding-top:10px;
 }
-ul{
-    display: flex;
+
+li:hover{
+    cursor: pointer;
 }

@@ -4,9 +4,9 @@ import Resources from '../Resources/Resources'
 
 function AboutMe() {
   return (
-    <div className='footer-container'>
+    <div className='footer-container' id='about'>
     <div className='about-container'>
-      <div className='my-pic'><img src={'images/headshotbw2.png'}></img></div>
+      <div className='my-pic'><img src={'images/headshotsquare.png'}></img></div>
       <div className='descript'> hi again!! thanks for checking out my site. <span role="img" aria-label="smiley">☺️ </span> <br/> <br/>
       i'm currently in my final year of software engineering at Western University. in my free time I love to read&nbsp; 
       <span className='goodreads'>(checkout my <a href='https://www.goodreads.com/user/show/132176441-tara-lee'>goodreads</a>!)</span>, i'm trying to read 25 books in 2023.
