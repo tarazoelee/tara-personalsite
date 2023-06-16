@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     font-family: 'Noto Serif JP', serif;
-    margin-top:3%;
+    margin-top:100px;
     position: fixed;
         z-index: 1;
         top: 0;
@@ -17,7 +17,7 @@
 .nav-container li{
     list-style:none;
     padding: 2px 0px;
-    margin: 3px 0px 3px 20px;
+    margin: 12px 0px 3px 20px;
     transition: 0.3s;
 }
 
