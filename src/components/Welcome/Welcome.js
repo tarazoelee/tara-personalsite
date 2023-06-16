@@ -1,5 +1,6 @@
 import React from 'react'
 import './Welcome.css'
+import Navbar from '../NavBar/Navbar'
 
 function Welcome() {
   return (

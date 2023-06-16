@@ -1,23 +1,28 @@
-
-
 .nav-container{
     display: flex;
     flex-direction: column;
     font-family: 'Noto Serif JP', serif;
-    margin-top:5%;
+    margin-top:3%;
     position: fixed;
-    /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1;
+        top: 0;
+    /* Fixed Sidebar (stay in place on scroll)
+    position: fixed;
     z-index: 1;
-    /* Stay on top */
     top: 0;
-    padding-left:20px;
+    */
+    color:rgb(252, 240, 148);
 }
 
-li{
+.nav-container li{
     list-style:none;
-    padding-top:10px;
+    padding: 2px 0px;
+    margin: 3px 0px 3px 20px;
+    transition: 0.3s;
 }
 
-li:hover{
+.nav-container li:hover{
     cursor: pointer;
+    color:rgb(54, 34, 3);
+    border-bottom: 1px solid rgb(54, 34, 3);
 }

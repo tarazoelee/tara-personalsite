@@ -22,12 +22,12 @@
     padding-top: 50px;
 }
 
-a{
+.footer-container a{
     text-decoration: none;
-    color:#f6d589;
+    color:#f6ca63;
     transition: 0.3s;
 }
-a:hover{
+.footer-container a:hover{
     color:#421908;
 }
 
