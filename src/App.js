@@ -50,36 +50,3 @@ function App() {
 }
 
 export default App;
-
-/**
- * 
-      <Navbar> </Navbar>
-      <Fade top>
-      <Welcome></Welcome>
-      </Fade>
-       <Fade bottom>
-        <Route path='/' element={<WorkExperience></WorkExperience>}></Route>
-       </Fade>
-       <Fade bottom>
-        <AdditionalExperience></AdditionalExperience>
-       </Fade>
-       <div className='ed-about'>
-        <div  className='education'>
-          <Slide left>
-            <Education></Education>
-          </Slide>
-        </div>
-        <div className='skills'>
-          <Slide right>
-            <Skills></Skills>
-          </Slide>
-        </div>
-       </div>
-
-       <Slide bottom>
-          <Spotify></Spotify>
-       </Slide>
-       <Slide bottom>
-          <AboutMe></AboutMe>
-       </Slide>
- */

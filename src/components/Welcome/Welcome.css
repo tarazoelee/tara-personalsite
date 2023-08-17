@@ -98,11 +98,11 @@
 /*IPAD SIZE */
 @media screen and (max-width: 950px) {
     .typewriter {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .headshot {
-        width: 350px
+        width: 300px
     }
 
     .container {
@@ -111,16 +111,21 @@
 }
 
 /*PHONE SIZE */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .typewriter {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .sub-heading {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .container {
-        gap: 10%;
+        gap: 5%;
     }
+        .headshot {
+            width: 200px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: 0.3s;
+        }
 }

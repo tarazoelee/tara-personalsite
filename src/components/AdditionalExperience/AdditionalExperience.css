@@ -24,3 +24,12 @@
     }
     
 }
+
+@media screen and (max-width:1000px) {
+    .additionalexperience-container{
+        padding: 50px 5% 50px 5%;
+    }
+    .title-text{
+        font-size: 14px;
+    }
+}

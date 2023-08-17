@@ -40,5 +40,28 @@
     .school-body{
         font-size: 12px;
     }
+    .info-container{
+        margin-top: 30px;
+        align-items: center;
+        padding-left:5%;
+    }
     
+}
+
+@media screen and (max-width:600px){
+    .school-name {
+            font-size: 12px;
+            font-weight: bold;
+        }
+    
+        .program {
+            font-size: 10px;
+        }
+    
+        .school-body {
+            font-size: 10px;
+        }
+    .info-container{
+        justify-self: center;
+    }
 }

@@ -72,3 +72,36 @@
     }
     
 }
+
+
+@media screen and (max-width:600px) {
+
+    .title{
+        gap:0.5rem;
+    }
+
+    .company {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .role,
+    .date {
+        font-size: 10px;
+    }
+
+    .item-descript {
+        font-style: italic;
+        font-size: 10px;
+    }
+
+    .item-info {
+        font-size: 10px;
+        padding: 0px 20px;
+    }
+
+    .item-container {
+        padding: 20px 10px;
+    }
+
+}

@@ -73,6 +73,32 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .about-container {
+        flex-wrap: wrap;
+        padding-top: 15%;
+    }
+
+    .my-pic img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .descript {
+        min-width: 200px;
+        font-size: 10px;
+    }
+    .contact-title{
+        font-size: 10px;
+    }
+    .contact-info{
+        font-size: 10px;
+    }
+    .footer{
+        font-size: 10px;
+    }
+}
+
 .resume-container {
     color: black;
     text-decoration: none;
