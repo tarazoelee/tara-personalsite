@@ -5,3 +5,14 @@
     color: black;
 }
 
+@media screen and (max-width:1000px) {
+    .workexperience-container {
+            padding: 100px 15% 50px 5%;
+        }
+}
+
+@media screen and (max-width:600px) {
+    .workexperience-container {
+            padding: 50px 5% 50px 5%;
+        }
+}

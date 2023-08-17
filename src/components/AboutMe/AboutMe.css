@@ -7,11 +7,12 @@
 
 .footer{
     align-items: center;
-    padding: 2% 2%;
+    padding: 3% 2%;
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: #f4f5f2;
+    background-color: rgba(255, 251, 251, 0.555);
+
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -70,6 +71,32 @@
     }
     .descript{
         min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-container {
+        flex-wrap: wrap;
+        padding-top: 15%;
+    }
+
+    .my-pic img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .descript {
+        min-width: 200px;
+        font-size: 10px;
+    }
+    .contact-title{
+        font-size: 10px;
+    }
+    .contact-info{
+        font-size: 10px;
+    }
+    .footer{
+        font-size: 10px;
     }
 }
 

@@ -6,12 +6,20 @@
     background-color: #f4f5f2;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
     .ed-about {
-        flex-wrap: wrap;
+        flex-direction: column;
+        padding:15% 10%;
     }
 }
 
-.education, .skills{
-    width:50%;
-}
+    /**
+    .education,
+        .skills {
+            width: 50%;
+        }
+    */
+
+
+
+

@@ -10,21 +10,16 @@ import WorkExperience from './components/WorkExperience/WorkExperience';
 import AdditionalExperience from './components/AdditionalExperience/AdditionalExperience';
 import Spotify from './components/Spotify/Spotify';
 import Navbar from './components/NavBar/Navbar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useRef } from 'react';
 
 function App() {
 
 
   return (
     <div className='whole'>
-
-        <Navbar></Navbar>
+      <Navbar></Navbar>
       <Fade top>
-      <Welcome></Welcome>
+        <Welcome></Welcome>
       </Fade>
-
-      
        <Fade bottom>
         <WorkExperience></WorkExperience>
        </Fade>
@@ -55,36 +50,3 @@ function App() {
 }
 
 export default App;
-
-/**
- * 
-      <Navbar> </Navbar>
-      <Fade top>
-      <Welcome></Welcome>
-      </Fade>
-       <Fade bottom>
-        <Route path='/' element={<WorkExperience></WorkExperience>}></Route>
-       </Fade>
-       <Fade bottom>
-        <AdditionalExperience></AdditionalExperience>
-       </Fade>
-       <div className='ed-about'>
-        <div  className='education'>
-          <Slide left>
-            <Education></Education>
-          </Slide>
-        </div>
-        <div className='skills'>
-          <Slide right>
-            <Skills></Skills>
-          </Slide>
-        </div>
-       </div>
-
-       <Slide bottom>
-          <Spotify></Spotify>
-       </Slide>
-       <Slide bottom>
-          <AboutMe></AboutMe>
-       </Slide>
- */

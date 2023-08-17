@@ -1,23 +1,24 @@
-
-.welcome-image{
-    height:35px;
-    width:35px;
+.welcome-image {
+    height: 35px;
+    width: 35px;
     object-fit: fill;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 100px 5% 60px 5%;
     font-family: 'Noto Serif JP', serif;
+    gap: 15%;
 }
 
-.headshot{
-    width:500px;
+
+.headshot {
+    width: 500px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition:0.3s;
+    transition: 0.3s;
 }
 
 .headshot:hover {
@@ -25,25 +26,22 @@
 }
 
 .left-container {
-    width: 70%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.right-container{
-}
-
-
-.current-info{
+.current-info {
     font-weight: 500;
     width: 22%;
     color: rgb(255, 254, 245);
-    padding-right:25%;
+    padding-right: 25%;
     display: flex;
     align-items: center;
     justify-content: start;
     text-align: center;
 }
+
 .sub-heading {
     font-weight: 500;
     padding-top: 4px;
@@ -51,36 +49,40 @@
 }
 
 .typewriter {
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid rgb(125, 104, 118);
-    /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
-    /* margin: 0 auto;
-    Gives that scrolling effect as the typing happens */
-    letter-spacing: .10em;
-    /* Adjust as needed */
-    animation:
-        typing 3.0s steps(22, end),
-        blink-caret 1s step-end infinite;
-
+    font-size: xx-large;
     font-weight: 900;
+    letter-spacing: 0.06rem;
+}
+
+/* 
+.typewriter{
+    overflow: hidden;
+        border-right: .15em solid rgb(252, 240, 148);;
+
+        white-space: nowrap;
+
+        margin: 0 auto;
+   
+        letter-spacing: .10em;
+
+        animation:
+        typing 2.5s steps(14, end),
+        blink-caret 0.2s step-end infinite;
+        font-weight: 900;
     font-size: xx-large;
 }
 
-/* The typing effect */
 @keyframes typing {
     from {
         width: 0
     }
 
     to {
-        width: 50%
+        width: 60%
     }
 }
 
-/* The typewriter cursor effect */
+
 @keyframes blink-caret {
 
     from,
@@ -88,30 +90,42 @@
         border-color: transparent
     }
 
-    5% {
-        border-color: rgb(125, 104, 117);
+    50% {
+        border-color:rgb(252, 240, 148);
+    }
+} */
+
+/*IPAD SIZE */
+@media screen and (max-width: 950px) {
+    .typewriter {
+        font-size: 18px;
+    }
+
+    .headshot {
+        width: 300px
+    }
+
+    .container {
+        gap: 10%;
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .current-info {
-        font-size: medium;
-        width:30%;
-        padding-right: 14%;
+/*PHONE SIZE */
+@media screen and (max-width: 600px) {
+    .typewriter {
+        font-size: 14px;
     }
-    .typewriter{
-        font-size: larger;
-        transition: 0.3s ease;
+
+    .sub-heading {
+        font-size: 10px;
     }
-    .sub-heading{
-        font-size: medium;
+
+    .container {
+        gap: 5%;
     }
-    .left-container{
-        width:35%;
-        padding-left: 11%;
-    }
-    .container{
-        padding:40% 0%;
-        transition:0.5s ease;
- }
+        .headshot {
+            width: 200px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: 0.3s;
+        }
 }

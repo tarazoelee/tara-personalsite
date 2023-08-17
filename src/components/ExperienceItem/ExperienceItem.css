@@ -1,10 +1,11 @@
 .item-title{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .item-info{
-    padding: 20px 100px;
+    padding: 10px 100px;
     font-size: 16px;
 }
 
@@ -21,7 +22,7 @@
     gap:3rem;
 }
 
-.company, .date{
+.company{
     font-size: 18px;
     font-weight: bold;
 }
@@ -30,13 +31,9 @@
     font-size: 16px;
 }
 
-.date{
-    align-self: flex-end;
-}
-
 .item-container{
     padding: 25px 50px;
-font-family: 'Noto Serif JP', serif;
+    font-family: 'Noto Serif JP', serif;
     transition: 0.3s;
     border-radius: 10px;
 }
@@ -50,4 +47,61 @@ font-family: 'Noto Serif JP', serif;
 .item-descript{
     font-style: italic;
     font-size: 16px;
+}
+
+@media screen and (max-width:1000px) {
+
+    .company{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    .role,
+    .date {
+        font-size: 14px;
+    }
+        .item-descript {
+            font-style: italic;
+            font-size: 12px;
+        }
+    .item-info{
+        font-size: 12px;
+        padding: 0px 100px;
+    }
+    .item-container{
+        padding:20px;
+    }
+    
+}
+
+
+@media screen and (max-width:600px) {
+
+    .title{
+        gap:0.5rem;
+    }
+
+    .company {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .role,
+    .date {
+        font-size: 10px;
+    }
+
+    .item-descript {
+        font-style: italic;
+        font-size: 10px;
+    }
+
+    .item-info {
+        font-size: 10px;
+        padding: 0px 20px;
+    }
+
+    .item-container {
+        padding: 20px 10px;
+    }
+
 }

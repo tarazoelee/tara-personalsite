@@ -13,3 +13,23 @@
 .title-container{
     padding-bottom:20px;
 }
+
+@media screen and (max-width:1000px) {
+    .additionalexperience-container{
+     padding: 100px 15% 50px 10%;
+    }
+    .title-text {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+    .additionalexperience-container{
+        padding: 50px 5% 50px 5%;
+    }
+    .title-text{
+        font-size: 14px;
+    }
+}
