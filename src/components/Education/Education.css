@@ -1,10 +1,5 @@
 .ed-container{
-        font-family: 'Noto Serif JP', serif;
-}
-
-.title-cont {
-    font-size: 22px;
-    font-weight: bold;
+    font-family: 'Noto Serif JP', serif;
 }
 
 .info-container {
@@ -32,4 +27,18 @@
 
 .school-body li{
     padding-top:5px;
+}
+
+@media screen and (max-width:1000px){
+    .school-name {
+        font-size: 14px;
+        font-weight: bold;
+    }
+        .program {
+            font-size: 12px;
+        }
+    .school-body{
+        font-size: 12px;
+    }
+    
 }

@@ -10,21 +10,16 @@ import WorkExperience from './components/WorkExperience/WorkExperience';
 import AdditionalExperience from './components/AdditionalExperience/AdditionalExperience';
 import Spotify from './components/Spotify/Spotify';
 import Navbar from './components/NavBar/Navbar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useRef } from 'react';
 
 function App() {
 
 
   return (
     <div className='whole'>
-
-        <Navbar></Navbar>
+      <Navbar></Navbar>
       <Fade top>
-      <Welcome></Welcome>
+        <Welcome></Welcome>
       </Fade>
-
-      
        <Fade bottom>
         <WorkExperience></WorkExperience>
        </Fade>
